@@ -3,6 +3,19 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
+const handleDownloadCV = () => {
+    // Replace 'your-cv.pdf' with your actual CV file path in the public folder
+    const cvUrl = '/Prasandu_Yasith.pdf';
+    
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'Prasandu_Yasith_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
@@ -75,10 +88,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 1 }}
           >
             <motion.button
-              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300"
-              whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(0,0,0,0.2)" }}
-              whileTap={{ scale: 0.95 }}
+              onClick={handleDownloadCV}
+              className="px-8 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-300"
             >
               Download My CV
             </motion.button>
