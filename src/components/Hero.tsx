@@ -52,22 +52,22 @@ const Hero: React.FC = () => {
   const socialLinks: SocialLink[] = [
     { 
       name: 'LinkedIn', 
-      url: 'https://linkedin.com/in/yourprofile',
+      url: 'https://www.linkedin.com/in/prasandu-yasith-88598136b/',
       color: ColorSystem.accent.blue
     },
     { 
       name: 'GitHub', 
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Prasandu',
       color: ColorSystem.neutral[600]
     },
     { 
       name: 'Twitter', 
-      url: 'https://twitter.com/yourhandle',
+      url: 'https://twitter.com/',
       color: ColorSystem.accent.blue
     },
     { 
       name: 'Dribbble', 
-      url: 'https://dribbble.com/yourprofile',
+      url: 'https://dribbble.com/',
       color: ColorSystem.brand.secondary
     },
   ];
