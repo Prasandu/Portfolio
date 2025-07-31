@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       title: "Online Fashion Store",
-      description: "A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.",
+      description: "A full-stack e-commerce application built with php, html, and css. Features include user authentication, product catalog, shopping cart, and payment integration.",
       image: "/fashion.jpeg",
       technologies: ["Html", "css", "php", "javascript", "mysql"],
       githubUrl: "https://github.com/Prasandu/NOURA.git",
@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Online Property Management System",
       description: "A weather application that provides real-time weather data, 7-day forecasts, and interactive maps using weather APIs.",
       image: "/property.jpeg",
-      technologies: ["JavaScript", "API Integration", "Chart.js", "CSS3"],
+      technologies: ["JavaScript", "java", "tomcat", "CSS3"],
       githubUrl: "https://github.com/Prasandu/Property-management.git",
       liveUrl: "#",
       featured: true
@@ -44,7 +44,7 @@ const Projects = () => {
       title: "Financial Management App",
       description: "A comprehensive system for managing student records, grades, and attendance with role-based access control.",
       image: "/Finance.jpeg",
-      technologies: ["Java", "MySQL", "JavaFX", "JDBC"],
+      technologies: ["Kotlin", "xml"],
       githubUrl: "https://github.com/Prasandu/FinTrack.git",
       liveUrl: "#",
       featured: false
