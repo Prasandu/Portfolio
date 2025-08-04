@@ -66,8 +66,8 @@ const Hero: React.FC = () => {
       color: ColorSystem.accent.blue
     },
     { 
-      name: 'Dribbble', 
-      url: 'https://dribbble.com/',
+      name: 'Facebook', 
+      url: 'https://www.facebook.com/profile.php?id=61577282117230&mibextid=ZbWKwL',
       color: ColorSystem.brand.secondary
     },
   ];
