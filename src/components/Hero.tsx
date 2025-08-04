@@ -61,13 +61,13 @@ const Hero: React.FC = () => {
       color: ColorSystem.neutral[600]
     },
     { 
-      name: 'Twitter', 
-      url: 'https://twitter.com/',
+      name: 'Email', 
+      url: 'prasanduyasithlk@gmail.com',
       color: ColorSystem.accent.blue
     },
     { 
       name: 'Facebook', 
-      url: 'https://www.facebook.com/profile.php?id=61577282117230&mibextid=ZbWKwL',
+      url: 'https://www.facebook.com/share/1YfMjGEYPv/',
       color: ColorSystem.brand.secondary
     },
   ];
