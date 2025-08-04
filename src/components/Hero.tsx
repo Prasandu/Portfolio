@@ -53,22 +53,22 @@ const Hero: React.FC = () => {
     { 
       name: 'LinkedIn', 
       url: 'https://www.linkedin.com/in/prasandu-yasith-88598136b/',
-      color: ColorSystem.accent.blue
+      color: ColorSystem.accent.white
     },
     { 
       name: 'GitHub', 
       url: 'https://github.com/Prasandu',
-      color: ColorSystem.neutral[600]
+      color: ColorSystem.accent.white
     },
     { 
       name: 'Email', 
       url: 'prasanduyasithlk@gmail.com',
-      color: ColorSystem.accent.blue
+      color: ColorSystem.accent.white
     },
     { 
       name: 'Facebook', 
       url: 'https://www.facebook.com/share/1YfMjGEYPv/',
-      color: ColorSystem.brand.secondary
+      color: ColorSystem.accent.white
     },
   ];
 
